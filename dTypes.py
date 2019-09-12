@@ -1,0 +1,7 @@
+a="Привет".upper()
+b= input ('Введи имя: ')
+c=(f'{b}, {a}!').capitalize()
+print(c)
+g = input ('А лет сколько: ')
+r = 2019 - int(g)
+print(f'Так ты родился в {r}г.')
